@@ -30,7 +30,6 @@ print(lista[0:6])
 print(lista[3:]) # >> começa no índice 3 e vai até o final. 
 print(lista[2:6:2]) # >> começa no 2, vai ao 6 mas PULA de 2 em 2. >> 30, 25
 
-
 # > Iterações com FOR
 
 # 1. Utilizando os próprios elementos da lista
@@ -42,11 +41,5 @@ for elemento in lista:
 
 print('Comprimento da lista', len(lista))
 
-for i in range(len(lista));
+for i in range(len(lista)):
     print(lista[i])
-
-
-
-
-
-
